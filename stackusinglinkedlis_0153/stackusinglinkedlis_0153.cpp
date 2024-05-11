@@ -24,7 +24,7 @@ public:
 	{
 		top = NULL;
 	}
-};
+
 int push(int value)
 {
 	Node* newNode = new Node();
@@ -42,10 +42,15 @@ void pop()
 		cout << "Stack is empty." << endl;
 		top = top->next;
 	}
+	cout << "Popped value: " << top->data << endl;
+	top = top->next;
 
-	int main();
-	{
 
-	}
 
-}
+};
+int main();
+ {
+
+	
+
+ }
