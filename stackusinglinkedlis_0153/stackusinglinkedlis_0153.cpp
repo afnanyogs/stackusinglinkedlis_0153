@@ -64,8 +64,14 @@ void pop()
 	};
 
 	bool isEmpty()
-iint main();
+	{
+		return top == NULL;
+	}
+};
+
+int main()
  {
+	stack stack;
 
 	
 
