@@ -16,7 +16,7 @@ public:
 
 class stack
 {
-
+  private:
 };
 
 int main()
