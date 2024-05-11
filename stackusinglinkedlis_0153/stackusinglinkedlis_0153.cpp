@@ -16,10 +16,10 @@ public:
 
 class stack
 {
- private:
+private:
 	Node* top;
 
- public:
+public:
 	stack()
 	{
 		top = NULL;
@@ -27,10 +27,20 @@ class stack
 };
 int push(int value)
 {
-
+	Node* newNode = new Node();
+	newNode->data = value;
+	newNode->next = top;
+	top = newNode;
+	cout << "Push value: " << value << endl;
+	return value;
 }
 
-int main()
+void pop()
 {
-	
+
+	int main();
+	{
+
+	}
+
 }
