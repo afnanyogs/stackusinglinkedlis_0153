@@ -40,25 +40,30 @@ void pop()
 	if (isEmpty());
 
 	{
-     cout << "Stack is empty." << endl;
-	 top = top->next;
+		cout << "Stack is empty." << endl;
+		top = top->next;
 	}
-	 cout << "Popped value: " << top->data << endl;
-	 top = top->next;
+	cout << "Popped value: " << top->data << endl;
+	top = top->next;
 
-	 void peek()
-	 {
-		 if (top == NULL)
-		 {
-			 cout << "List is empty." << endl;
-		 }
-		 else {
-			 Node* current = top;
-			 while (current != NULL
-				 {
-					   cout << current->data << " " << endl;
+	void peek()
+	{
+		if (top == NULL)
+		{
+			cout << "List is empty." << endl;
+		}
+		else {
+			Node* current = top;
+			while (current != NULL
+				{
+					  cout << current->data << " " << endl;
+					  current = current->next;
+				}
+			cout << endl;
+		}
+	};
 
-};
+	bool isEmpty()
 iint main();
  {
 
