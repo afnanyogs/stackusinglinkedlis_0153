@@ -55,10 +55,11 @@ void pop()
 		 else {
 			 Node* current = top;
 			 while (current != NULL
-
+				 {
+					   cout << current->data << " " << endl;
 
 };
-int main();
+iint main();
  {
 
 	
